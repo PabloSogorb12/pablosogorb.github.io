@@ -1,0 +1,122 @@
+body{
+    padding-top: 20px;
+    text-align: center;
+    background-image: url("/imgs/old_map.png");
+}
+
+div{
+    width: 960px;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    background-image: url("/imgs/IMG_4965\(1\).jpg");
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+header{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: 1.1em;
+    border-bottom: 6px black solid;
+    background-color: #313b44;
+    background-image: url("/imgs/");
+    background-repeat: no-repeat;
+    background-position: 25px center;
+}
+
+nav{
+    font-family: 'Courier New', Courier, monospace, 1.4em, silver;
+    text-align: center;
+    background-image: url("/imgs/red015.jpg");
+}
+
+nav li{
+    padding: 80px;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    cursor: default;
+}
+
+nav #estudios{
+    background-image: url("/imgs/estudios.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    border-top: 10px;
+}
+
+nav #conocimientos{
+    background-image: url("/imgs/conocimientos.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top: 10px;
+
+}
+
+nav #contacto{
+    background-image: url("/imgs/contacto.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top: 10px;
+}
+
+section{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+    background-image: url("/imgs/lgrey008.jpg");
+    width: 100%;
+    display: table;
+}
+
+article{
+    width: 240px;
+    border: 1px lightgray solid;
+    background-color: white;
+    text-align: center;
+    line-height: 1.8em;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 22px;
+    margin: 30px;
+    float: left;
+}
+
+.clearfix::before,
+.clearfix::after,
+
+
+
+article header{
+    padding: 1px solid #999999;;
+}
+
+h2{
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+footer{
+    
+    font-size: 0.7em;
+    color: white;
+    text-align: center;
+    background-color: #313b44;
+    border-top: 6px black solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
